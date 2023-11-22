@@ -35,16 +35,16 @@ Leverages jQuery and day.js integrations
 
 The github repository may be found at https://github.com/sfmacdonald/Day-Planner
 
-The live URL for the working website is [insert URL]
+The live URL for the working website is https://sfmacdonald.github.io/Day-Planner/
 
 When accessed, the website should reflect the following image:
 
-![alt text](<insert png>)
+![scheduler](<./Screen Shot 2023-11-21 at 5.26.28 PM.png>)
 
 ## Testing
 
 1. **Navigate to the Website**
-   - Visit [insert URL]
+   - Visit https://sfmacdonald.github.io/Day-Planner/
 
 2. **Current Time/Date**
     - Ensure that displayed date/time stamp matches user's date/time:
@@ -57,6 +57,7 @@ When accessed, the website should reflect the following image:
         1. Current time - red
         2. Past time(s) - gray 
         3. Future time(s) - green
+            -   Thismay be confirmed by changing the local computer's timezone and refreshing the browser to reflect the correct time/time block coloring
     - Ensure that new entries save correctly by:
         1. Click with cursor within time block the user wishes to create an entry
             - Note blinking text cursor appears in selected time block 
@@ -64,20 +65,4 @@ When accessed, the website should reflect the following image:
         2. Insert free text
         3. Select save button on right-hand side 
             - Save button shall change color from white to black and enlarge when cursor is hovered over.
-
-
-
-
-4. **Completing The Quiz**
-    - 
-        1. 
-        2. 
-
-5. **Store Results**
-    - 
-        1. 
-        2. 
-        3. 
-
-6. **Begin A New Quiz**
-   - 
+        4. Refresh browser to ensure data saved and is displayed successfully
